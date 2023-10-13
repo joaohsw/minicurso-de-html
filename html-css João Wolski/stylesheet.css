@@ -1,0 +1,138 @@
+#headpg1 { /* titulo da pagina 1 */
+    text-align: center;
+    text-shadow: 1px 1px 2px darkblue;
+    font-family: Pixelify Sans;
+    letter-spacing: 4px;
+    font-size: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: darkblue;
+    outline-style: solid;
+    outline-width: 5px 5px 5px 5px;
+    outline-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: gray;
+}
+
+#hrnav1 { /* hr entre nav e head e nav e body da pg1 */
+    height: 10px;
+    color: black;
+    border-style: solid;
+    background-color: blue;
+}
+ 
+#navpg1 { /* nav pg1 */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    
+    
+}
+
+#navpg1 a { /* nav pg1 */
+    display: inline-block; 
+    background-color: blue;
+    color: white;
+    padding: 5px 10px; 
+    text-decoration: none; 
+    margin-right: 10px;
+    
+}
+
+#navpg1 a:hover { /* nav pg1 */
+    background-color: darkblue;
+    
+}
+
+#asidepg1 { /* aside da pg1 */
+    float: right;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+    background-color: black;
+}
+
+#h2pg1 { /* titulo 2 pg 1 */
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#asidepg1_2 { /* aside da pg1 */
+    float: right
+}
+
+#suarezsaoluiz { /* foto pg 1 */
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#grenal1 { /* foto pg 1 */
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#section1 { /* section pg1 */
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto; /* Isso alinhará horizontalmente o conteúdo no centro da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+#linksuteis {
+    font-family: monospace;
+    color: white;
+
+}
+
+#listapg1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+#listapg1 {
+    color: white;
+}
+
+#grenal2 { /* foto pg 1 */
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#footerpg1 {
+    width: 1890px;
+    height: 100px;
+    background-color: black;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+#footerpg1 pre {
+    opacity: 0.5;
+}
+
+#emailfooter {
+    text-decoration: none;
+    color: inherit;
+}
