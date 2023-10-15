@@ -136,3 +136,115 @@
     text-decoration: none;
     color: inherit;
 }
+
+#navpg2 { /* nav pg2 */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    
+    
+}
+
+#navpg2 a { /* nav pg2 */
+    display: inline-block; 
+    background-color: blue;
+    color: white;
+    padding: 5px 10px; 
+    text-decoration: none; 
+    margin-right: 10px;
+    
+}
+
+#navpg2 a:hover { /* nav pg2 */
+    background-color: darkblue;
+    
+}
+
+#bodypg2 {
+    background-color: black;
+}
+
+#headpg2 { /* titulo da pagina 2 */
+    text-align: center;
+    text-shadow: 1px 1px 2px darkblue;
+    font-family: Pixelify Sans;
+    letter-spacing: 4px;
+    font-size: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: darkblue;
+    outline-style: solid;
+    outline-width: 5px 5px 5px 5px;
+    outline-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: url(imagens/gremiogif.gif);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#articlepg2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#tabelajogadores {
+    width: 100%;
+    color: black;
+    text-align: left;
+    background-color: white;
+    font-size: 20px;
+    outline: solid;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabelajogadores th, #tabelajogadores td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#headpg3 { /* titulo da pagina 3 */
+    text-align: center;
+    text-shadow: 1px 1px 2px darkblue;
+    font-family: Pixelify Sans;
+    letter-spacing: 4px;
+    font-size: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: darkblue;
+    outline-style: solid;
+    outline-width: 5px 5px 5px 5px;
+    outline-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    background-image: url(imagens/obrigado.gif);
+}
+
+#bodypg3 {
+    background-image: url(imagens/background.gif);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#obrigado {
+    width: 500px;
+    height: 500px;
+}
+
+#graphicdesignismypassion  {
+    width: 500px;
+    height: 500px;
+}
